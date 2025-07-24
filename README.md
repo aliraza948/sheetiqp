@@ -4,7 +4,7 @@
     <a href="https://discord.gg/ZkMMxZQf"><img src="https://img.shields.io/discord/1397785576253423616?color=5865F2&logo=discord&logoColor=white" alt="support server" /></a>
     <a href="https://www.npmjs.com/package/sheetiq"><img src="https://img.shields.io/npm/v/sheetiq?maxAge=3600" alt="npm version" /></a>
     <a href="https://www.npmjs.com/package/sheetiq"><img src="https://img.shields.io/npm/dt/sheetiq?maxAge=3600" alt="npm downloads" /></a>
-   <a href="https://pypi.org/project/sheetiq/"><img src="https://img.shields.io/pypi/dm/sheetiq.svg" alt="PyPI downloads" /></a>
+   <a href="https://pypi.org/project/sheetiq/"><img src="https://img.shields.io/pypi/v/sheetiq.svg" alt="PyPI downloads" /></a>
 </div>
 
 # SheetIQ

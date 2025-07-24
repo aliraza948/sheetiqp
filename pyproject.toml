@@ -1,6 +1,6 @@
 [project]
 name = "sheetiq"
-version = "0.1.2"
+version = "0.1.3"
 description = "Python SDK for accessing and updating Google Sheets via docapi.datafetchpro.com"
 authors = [{ name="Ali Raza", email="you@example.com" }]
 readme = "README.md"
