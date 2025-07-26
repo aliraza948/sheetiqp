@@ -4,8 +4,6 @@ class SheetIQParam(TypedDict):
 
 
 class SheetIQGetSheet(TypedDict, total=False):
-    id: str
-    range: str
     key: bool
 
 
