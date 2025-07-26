@@ -22,20 +22,19 @@ pip install sheetiq
 ```py
 from sheetiq.sheetiq import SheetIQ
 sheet=SheetIQ({"token":"YOUR_BEARER_TOKEN"})
+sheet.sheet=["SHEET_ID","SHEET_NAME"]
 ```
 
 ## Get Sheet Data
 
 ```py
-sheet.get_sheet({"id":"1jNPCbbYGT49dlXCeWkAoutazh3Cp2awsJyXnWyAKZ8E","range":"Sheet1"})
+sheet.get_sheet()
 ```
 
 ## Append Data on Sheet
 
 ```py
 res = sheet.update_sheet({
-    "id": "1jNPCbbYGT49dlXCeWkAoutazh3Cp2awsJyXnWyAKZ8E",
-    "range": "Sheet1",
     "type": "append",
     "data": [["example@gmail.com"]]
 })
@@ -45,8 +44,6 @@ res = sheet.update_sheet({
 
 ```py
 res = sheet.update_sheet({
-    "id": "1jNPCbbYGT49dlXCeWkAoutazh3Cp2awsJyXnWyAKZ8E",
-    "range": "Sheet1",
     "type": "update",
     "data": [["example@gmail.com"]]
 })
